@@ -1,0 +1,489 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.Box {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-item:hover {
+    color: red;
+}
+
+
+@media (min-width: 1200px) {
+    .Box {
+        max-width: 1200px;
+    }
+}
+
+.Introduction-Section {
+    .More-about-us {
+        font-size: 16px;
+        font-family: "Roboto", serif;
+        background: linear-gradient(to left, #ff2143 50%, white 50%) right;
+        background-size: 201%;
+        transition: .5s;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+
+        a {
+            text-decoration: none;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+
+    .More-about-us:hover {
+        background-position: left;
+
+        a {
+            color: black;
+        }
+    }
+}
+
+.carousel-inner {
+    span {
+        font-size: 18px;
+        color: #eb566c;
+        font-weight: 500;
+    }
+}
+
+.nav-item {
+    a {
+        text-decoration: none;
+        color: #0d2d3e;
+        font-size: 16px;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+    }
+}
+
+.bg-img {
+    width: 100%;
+    background-image: url("images/h1_hero.jpg");
+    background-size: cover;
+}
+
+.Design-Line {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Design-Line:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid;
+    padding-right: 65px;
+    margin-right: 30px;
+}
+
+.section-bg {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.fix1 {
+    background-position: center center !important;
+}
+
+.row-description {
+    span {
+        font-size: 15px;
+        color: #eb566c;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 25px;
+        text-decoration: none;
+        font-family: "Roboto", serif;
+        color: #092c3f;
+        font-weight: 500;
+    }
+}
+
+.row1 {
+
+    span {
+        font-size: 18px;
+        color: #eb566c;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 50px;
+        text-decoration: none;
+        font-family: "Roboto", serif;
+        color: #092c3f;
+        font-weight: 500;
+    }
+}
+
+.row2 {
+    .card-body {
+
+        .fa-solid.fa-gear::before,
+        .fa-solid.fa-handshake::before,
+        .fa-solid.fa-chart-simple::before {
+            display: inline-block;
+            color: red;
+            font-size: 65px;
+        }
+
+        h5 {
+            font-size: 24px;
+            font-family: sans-serif;
+            font-weight: 600;
+            display: block;
+
+            a {
+                text-decoration: none;
+                color: #1c165c;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-family: "Poppins", serif;
+            line-height: 24px;
+            color: #57667e;
+        }
+    }
+}
+
+.About {
+    .pb-100 {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .section-title {
+
+        span,
+        h2 {
+            font-family: "Roboto", serif;
+        }
+
+    }
+
+    .support-caption {
+
+        .pera-one {
+            font-family: "Roboto", serif;
+            color: white;
+            font-size: 20px;
+        }
+
+        .pera-two {
+            font-family: sans-serif;
+            font-size: 15px;
+            color: #CECECE;
+            line-height: 2;
+            font-family: "Poppins", serif;
+
+        }
+
+        .More-about-us {
+            font-size: 16px;
+            font-family: "Roboto", serif;
+            background: linear-gradient(to left, #ff2143 50%, white 50%) right;
+            background-size: 201%;
+            transition: .5s;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+
+        .More-about-us:hover {
+            background-position: left;
+            color: black;
+        }
+    }
+}
+
+
+
+.Featured-Case-Study {
+
+    .row1 {
+
+        font-family: "Roboto", serif;
+
+        span {
+            font-size: 18x;
+            color: #eb566c;
+        }
+
+        h2 {
+            font-size: 50px;
+            color: #092c3f;
+
+        }
+    }
+
+    .row2,
+    .row3 {
+
+        .single-services {
+            position: relative;
+            margin-bottom: 200px;
+
+            .services-caption {
+                width: 100%;
+                padding: 33px 46px 16px 32px;
+                position: absolute;
+                top: 88%;
+
+
+                span {
+                    font-family: "Roboto", serif;
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-family: "Poppins", serif;
+
+                    a {
+                        text-decoration: none;
+                        color: #0e132a;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            @media (min-width: 768px) and (max-width: 991px) {
+                .services-caption {
+                    width: 95%;
+                }
+            }
+
+            @media (min-width: 1024px) {
+                .services-caption {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+.testimonial-area-section {
+    position: relative;
+    margin-bottom: 180px;
+}
+
+.Number-Counter {
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    margin-bottom: 0;
+    /* Remove any extra margin */
+    padding-bottom: 0;
+}
+
+.testimonial-top-cap {
+    font-family: "Poppins", serif;
+
+    p {
+        color: #d3d3d4;
+        font-size: 17px;
+    }
+}
+
+.founder-text {
+    font-family: "Poppins", serif;
+
+    span {
+        color: #f04e3c;
+        font-weight: 500;
+
+    }
+
+    p {
+        color: #57667e;
+        font-weight: 500;
+    }
+}
+
+.Number-Counter {
+    .count {
+        font-size: 60px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .count-head {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .testimonial-area-section {
+        margin-bottom: 0;
+    }
+
+    .Number-Counter {
+        position: relative;
+        top: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .member-cards .row {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .testimonial-area-section {
+        margin-bottom: 0;
+    }
+
+    .Number-Counter {
+        position: relative;
+        top: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .member-cards .row {
+        margin-top: 30px;
+    }
+
+    .member-cards {
+        margin-bottom: 0 !important;
+    }
+}
+
+.Consultant {
+    .More-about-us {
+        font-size: 16px;
+        font-family: "Roboto", serif;
+        background: linear-gradient(to left, #0b1416 50%, white 50%) right;
+        background-size: 201%;
+        transition: .5s;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+
+    .More-about-us:hover {
+        background-position: left;
+        color: black;
+    }
+}
+
+
+.Ideas-section {
+    .card-body {
+        h3 {
+            color: #191d34;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+footer {
+    a {
+        text-decoration: none;
+        color: #bdbdbd;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+
+    a:hover {
+        color: white;
+        margin-left: 10px;
+    }
+
+    .footer-pera .info1 {
+        line-height: 1.8;
+        margin-bottom: 35px;
+        color: #bdbdbd;
+    }
+
+    .footer-number h4 {
+        color: #ff0000;
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .footer-number span {
+        color: white;
+    }
+
+    .footer-tittle h4 {
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        margin-bottom: 38px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .footer-tittle ul li {
+        color: #bdbdbd;
+        margin-bottom: 15px;
+        list-style: none;
+        text-transform: capitalize;
+    }
+
+    .footer-form input {
+        background-color: #101720;
+        border: none;
+        padding: 8px 50px;
+        color: white;
+    }
+
+    .form-icon button {
+        background-color: #0a0f17;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+    }
+}
